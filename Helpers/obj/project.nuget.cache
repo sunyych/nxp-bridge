@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "jCMfYkAxJ7exRSHu3TxMuzmFxZb6smP4jXm2coNftnfXLK/a2PpEsR85o8fVbJScW/ydBBTXyZag8lU2r9qq3g==",
+  "success": true,
+  "projectFilePath": "/Users/steven/Projects/gaffney/XF/New Folder With Items/nxp-bridge/Helpers/Helpers.csproj",
+  "expectedPackageFiles": [
+    "/Users/steven/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/steven/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/steven/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/steven/.nuget/packages/skiasharp/2.80.3/skiasharp.2.80.3.nupkg.sha512",
+    "/Users/steven/.nuget/packages/skiasharp.extended/1.60.0/skiasharp.extended.1.60.0.nupkg.sha512",
+    "/Users/steven/.nuget/packages/skiasharp.svg/1.60.0/skiasharp.svg.1.60.0.nupkg.sha512",
+    "/Users/steven/.nuget/packages/skiasharp.views.forms/2.80.3/skiasharp.views.forms.2.80.3.nupkg.sha512",
+    "/Users/steven/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/steven/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/steven/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/steven/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/steven/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/steven/.nuget/packages/xamarin.forms/5.0.0.2291/xamarin.forms.5.0.0.2291.nupkg.sha512",
+    "/Users/steven/.nuget/packages/xamarin.forms.inputkit/3.7.2/xamarin.forms.inputkit.3.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

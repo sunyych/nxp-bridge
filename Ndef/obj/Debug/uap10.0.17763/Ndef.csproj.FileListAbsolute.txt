@@ -1,0 +1,10 @@
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\bin\Debug\uap10.0.17763\Helpers.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\bin\Debug\uap10.0.17763\Helpers.pdb
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Ndef.csproj.AssemblyReference.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Ndef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Ndef.AssemblyInfoInputs.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Ndef.AssemblyInfo.cs
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Ndef.csproj.CoreCompileInputs.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Ndef.csproj.CopyComplete
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Plugin.Ndef.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Ndef\obj\Debug\uap10.0.17763\Plugin.Ndef.pdb

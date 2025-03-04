@@ -1,0 +1,15 @@
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Msg.deps.json
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Msg.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Msg.pdb
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Helpers.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Plugin.Ndef.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Helpers.pdb
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\bin\Debug\netstandard2.0\Plugin.Ndef.pdb
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.csproj.AssemblyReference.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.AssemblyInfoInputs.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.AssemblyInfo.cs
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.csproj.CoreCompileInputs.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.csproj.CopyComplete
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Msg\obj\Debug\netstandard2.0\Msg.pdb

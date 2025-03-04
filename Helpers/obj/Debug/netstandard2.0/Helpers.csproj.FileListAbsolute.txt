@@ -1,0 +1,10 @@
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\bin\Debug\netstandard2.0\Helpers.deps.json
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\bin\Debug\netstandard2.0\Helpers.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\bin\Debug\netstandard2.0\Helpers.pdb
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.csproj.AssemblyReference.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.AssemblyInfoInputs.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.AssemblyInfo.cs
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.dll
+C:\Users\sunyy\Downloads\release_mra2_nhs3100\release_mra2_12_5_nhs3100\sw\XF\Helpers\obj\Debug\netstandard2.0\Helpers.pdb

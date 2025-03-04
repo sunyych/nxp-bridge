@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Ndef</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Ndef.CrossNdef">
+            <summary>
+            Cross Ndef
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.CrossNdef.IsSupported">
+            <summary>
+            Gets if the plugin is supported on the current platform.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.CrossNdef.Current">
+            <summary>
+            Current plugin implementation to use
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.TagReaderStatusChanged">
+            <summary>
+            Delegate to be invoked when tag reader status is changed.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Plugin.Ndef.INdef">
+            <summary>
+            NDEF plug-in API. 
+            Each platform should implement this interface.
+            </summary>
+        </member>
+        <member name="M:Plugin.Ndef.INdef.InitTagReaderAsync(Plugin.Ndef.TagReaderStatusChanged)">
+            <summary>
+            Initilize tag reader (NFC emitter) device. The status will be reported via the delegate 
+            TagReaderStatusChanged.
+            </summary>
+            <param name="onTagReaderStatusChanged"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.Ndef.INdef.DeInitTagReaderAsync">
+            <summary>
+            Deinitialize the tag reader HW.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:Plugin.Ndef.INdef.TagConnected">
+            <summary>
+            This event will be invoked when a new tag is connected.
+            In the arguments we wil be reporting:
+                - If NHS tag
+                - If the tag contains NDEF message, if yes the NDEF message will be associated as well
+                - If the tag contains compatible version information
+                
+            Higher level can further check:
+                - If NDEF message contains interpretable Text, MIME and URL records
+                - If the high level version information is compatible
+            </summary>
+        </member>
+        <member name="E:Plugin.Ndef.INdef.TagDisconnected">
+            <summary>
+            This event will be invoked when the tag is disconnected.
+            </summary>
+        </member>
+        <member name="M:Plugin.Ndef.INdef.WriteReadAsync(System.Collections.Generic.List{NdefLibrary.Ndef.NdefRecord})">
+            <summary>
+                - Wraps all Text, MIME and URL NDEF records into an NDEF message.
+                - Writes it.
+                - Read back NDEF message and extracts all NDEF records.
+                - Returns all NDEF records with a status.
+            <param name="wrNdefRecords"></param>
+            <returns>Status and read NDEF record list. List will be null if Status is not OK.</returns>
+            </summary>
+        </member>
+        <member name="M:Plugin.Ndef.INdef.ReadAsync">
+            <summary>
+                - Read new NDEF message and extracts all NDEF records.
+                - Returns the NDEF records with a status.
+            <returns>Status and read NDEF record list. List will be null if Status is not OK.</returns>
+            </summary>
+        </member>
+        <member name="M:Plugin.Ndef.INdef.WriteAsync(System.Collections.Generic.List{NdefLibrary.Ndef.NdefRecord})">
+            <summary>
+                - Wraps all Text, MIME and URL NDEF records into an NDEF message.
+                - Writes it.
+            <param name="wrNdefRecords"></param>
+            <returns>Status</returns>
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.NdefImplementation">
+            <summary>
+            Interface for $safeprojectgroupname$
+            </summary>
+        </member>
+        <member name="M:Plugin.Ndef.NdefImplementation.InitTagReaderAsync(Plugin.Ndef.TagReaderStatusChanged)">
+            <summary>
+            Init API implementation.
+            </summary>
+            <param name="onTagReaderStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.Ndef.NdefImplementation.DeInitTagReaderAsync">
+            <summary>
+            DeInit API implementation.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:Plugin.Ndef.NdefImplementation.TagConnected">
+            <summary>
+            Tag connected API event.
+            </summary>
+        </member>
+        <member name="E:Plugin.Ndef.NdefImplementation.TagDisconnected">
+            <summary>
+            Tag disconnected API event.
+            </summary>
+        </member>
+        <member name="M:Plugin.Ndef.NdefImplementation.WriteReadAsync(System.Collections.Generic.List{NdefLibrary.Ndef.NdefRecord})">
+            <summary>
+            Write and Read API implementation.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.Ndef.NdefImplementation.ReadAsync">
+            <summary>
+            Read API implemenetation.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plugin.Ndef.MessagingCenterMessages">
+            <summary>
+            Inter module message codes.
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.MessagingCenterMessages.Android">
+            <summary>
+            Android messages.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.MessagingCenterMessages.Android.OnCreate">
+            <summary>
+            Android app is created.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.MessagingCenterMessages.Android.OnResume">
+            <summary>
+            Android app is resumed.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.MessagingCenterMessages.Android.OnPause">
+            <summary>
+            Android app is paused.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.MessagingCenterMessages.Android.OnNewIntent">
+            <summary>
+            New intent for the android app.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.MessagingCenterMessages.Android.OnNewAdapterState">
+            <summary>
+            NFC adapter state.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.MessagingCenterMessages.Android.DisableDrawingCache">
+            <summary>
+            To disable android drawing cache.
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.Status">
+            <summary>
+            Returned status from NDEF plug-in.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.OK">
+            <summary>
+            Successful.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.Cancelled">
+            <summary>
+            Cancelled.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.NotSupported">
+            <summary>
+            Not supported.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.TagReaderNotAvailable">
+            <summary>
+            Tag reader is not available.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.TagReadFailed">
+            <summary>
+            Reading from tag failed.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.TagWriteFailed">
+            <summary>
+            Writing to tag failed.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.Status.InvalidNdefData">
+            <summary>
+            Invalid NDEF format.
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.TagConnectedEventArgs">
+            <summary>
+            Tag connected event arguments.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagConnectedEventArgs.Status">
+            <summary>
+            Status of the tag connection operation.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagConnectedEventArgs.IsNhsTag">
+            <summary>
+            If this is NHS tag.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagConnectedEventArgs.TagId">
+            <summary>
+            Tag ID.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagConnectedEventArgs.TagVersion">
+            <summary>
+            Tag version.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagConnectedEventArgs.NdefRecords">
+            <summary>
+            On tag connect we read all NDEF messages and convert them into Msg data.
+            Msg data is presented to the event handler(s).
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.TagDisconnectedEventArgs">
+            <summary>
+            Tag disconnect event parameters.
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.TagReaderStatusChangedEventArgs">
+            <summary>
+            tag reader sttaus event parameters.
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.TagReaderStatusChangedEventArgs.EReader">
+            <summary>
+            Reader availability.
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.TagReaderStatusChangedEventArgs.EReader.NotAvailable">
+            <summary>
+            Not available
+            </summary>
+        </member>
+        <member name="F:Plugin.Ndef.TagReaderStatusChangedEventArgs.EReader.Available">
+            <summary>
+            Available.
+            </summary>
+        </member>
+        <member name="T:Plugin.Ndef.TagReaderStatusChangedEventArgs.TagReaderStatus">
+            <summary>
+            Tag reader status event parameters.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagReaderStatusChangedEventArgs.TagReaderStatus.Reader">
+            <summary>
+            Reader availability.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagReaderStatusChangedEventArgs.TagReaderStatus.IsWriteSupported">
+            <summary>
+            If write operation is supported.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagReaderStatusChangedEventArgs.TagReaderStatus.IsAutoReadSupported">
+            <summary>
+            If auto read operation is supported.
+            </summary>
+        </member>
+        <member name="P:Plugin.Ndef.TagReaderStatusChangedEventArgs.Status">
+            <summary>
+            Tag reader status property.
+            </summary>
+        </member>
+    </members>
+</doc>
